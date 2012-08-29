@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="de">
+<head><!--SAHI_INJECT_START-->
+<script>/*<![CDATA[*//*---->*/__sahiDebugStr__="";__sahiDebug__=function(s){__sahiDebugStr__+=(s+"\n");};/*--*//*]]>*/</script>
+<script src="/_s_/spr/domainfix.js"></script>
+<script src='/_s_/spr/concat.js' id='_sahi_concat'></script>
+<script src='http://sahi.example.com/_s_/dyn/SessionState/state.js'></script>
+<script src='/_s_/spr/language_pack.js' id='langpack'></script>
+<script>/*<![CDATA[*//*---->*/_sahi.createCookie('sahisid', _sahi.sid);_sahi.loadXPathScript()/*--*//*]]>*/</script>
+<script>/*<![CDATA[*//*---->*/eval(_sahi.sendToServer("/_s_/dyn/Player_script/script.js"));/*--*//*]]>*/</script>
+<script src='/_s_/spr/playback.js'></script>
+<!--SAHI_INJECT_END-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Alle Angebote | happystaff | for better companies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="author" content="happystaff">
+    <meta name="copyright" content="(c) 2012 happystaff">
+    <meta name="description" content="happystaff ermöglicht es kleinen und mittleren Unternehmen Ihren Mitarbeitern dauerhaft attraktive und exklusive Vorteile anzubieten.">
+        <!-- Styles -->
+        <link rel="stylesheet" href="/app_test.php/css/hs_bootstrap_1.css" />
+        <link rel="stylesheet" href="/app_test.php/css/hs_bootstrap-responsive_2.css" />
+        <link rel="stylesheet" href="/app_test.php/css/hs_happystaff_3.css" />
+        <link rel="stylesheet" href="/app_test.php/css/hs_prettify_4.css" />
+            <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+</head>
+
+<body id="perk_list" class="logged-in"id="perk_list" class="logged-in"  data-spy="scroll" data-target=".subnav" data-offset="50">
+
+
+<div id="body-pattern">
+    <div id="body-glow">
+        <div id="body-clouds">        <!-- Navbar
+================================================== -->
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <div class="nav-collapse collapse">
+                <ul class="nav metahead">
+                                    <li><a href="/app_test.php/de/logout">Abmeldung</a></li>
+                    <li><a href="/app_test.php/de/faq">Hilfe</a></li>
+                    <li><a href="/app_test.php/de/user/settings">Meine Daten</a></li>
+                    <li><a href="/app_test.php/de/user/dashboard">Home</a></li>
+                </ul>
+                <div class="pull-left welcome-user">
+                    <span class="right-10">
+                        Hallo,
+                        <a href="/app_test.php/de/user/dashboard" > marx beck</a>!
+                    </span>
+                                            <span class="right-10">|</span>
+                        <span>
+                            Mein Bonus-Guthaben:
+                            <strong>300,00 &euro;</strong>
+                        </span>
+                                    </div>
+                            </div>
+        </div>
+    </div>
+</div>        <div class="container">
+            <!-- Masthead
+            ================================================== -->
+            <header class="jumbotron masthead">
+                <div class="inner">
+                    
+<div class="clearfix">
+    <div id="logo"><a href="/app_test.php/de/user/dashboard">happystaff</a></div>
+    <div class="headbtn">
+        
+            
+                
+                    
+                    <form class="pull-right form-search" id="search-top" action="/app_test.php/de/perks/list" method="get">
+                        <input type="hidden" name="search" value="1" />
+                        <input type="text" name="searchString" class="input-xlarge search-query" placeholder="Angebote finden..." value=""} >
+                                                    <input type="hidden" name="perksPerPage" value="50">
+                                                                            <input type="hidden" name="sort" value="popularity">
+                                                <div class="searching" onclick="document.getElementById('search-top').submit();"></div>
+                    </form>
+                                    
+
+    </div>
+</div>
+                                    </div>
+            </header>
+        </div><!-- /container -->
+            <div id="body-wood">
+        <div id="body-city">
+            <div class="container">
+                <!-- Tabbed Content
+                ================================================== -->
+                                                <ul class="nav nav-tabs flex-tabs top-40" id="">
+                    <li id="employee_dashboard" ><a href="/app_test.php/de/employee/dashboard">Home</a></li>
+                    <li id="perk_list" class="active"><a id="tabnav-employee-perklist" href="/app_test.php/de/perks/list">Alle Angebote</a></li>
+                    <li id="order_list" ><a href="/app_test.php/de/order/list">Meine Bestellungen</a></li>
+                </ul>
+                                                <div class="tab-content">
+                        <!-- Content Browse
+	================================================== -->
+<div class="tab-pane fade active in " id="browse">
+    <div class="heading">
+        <h3>
+                            Exklusive Angebote in Ihrer Umgebung
+                    </h3>
+    </div>
+    <div class="row-fluid remove-bottom">
+        <div class="span3 bottom-20">
+            <strong>Nach Kategorien filtern</strong>
+            <div class="top-10 bottom-10" id="catNav">
+                <ul>
+                    <li>
+                        <a href="/app_test.php/de/perks/list/catId"  class="selected" >
+                            Alle Angebote
+                        </a>
+                    </li>
+                                                        <li>
+                        <a href="/app_test.php/de/perks/list/catId/1" >
+                            Gastronomie <em>(2)</em>
+                        </a>
+                                                </li>
+                                                                            <li>
+                        <a href="/app_test.php/de/perks/list/catId/2" >
+                            Wellness &amp; Fitness <em>(1)</em>
+                        </a>
+                                                </li>
+                                                                            <li>
+                        <a href="/app_test.php/de/perks/list/catId/3" >
+                            Lifestyle &amp; Events <em>(3)</em>
+                        </a>
+                                                </li>
+                                                                            <li>
+                        <a href="/app_test.php/de/perks/list/catId/4" >
+                            Online Shopping <em>(1)</em>
+                        </a>
+                                                </li>
+                                    
+                                </ul>
+            </div>
+        </div>
+        <div class="span9 listing" id="list-results">
+            <ul class="left-25 breadcrumb pull-left">
+                <li>Zeige</li>
+                <li ><a href="/app_test.php/de/perks/list/perksPerPage/10">10</a> <span class="divider">|</span> </li>
+                <li ><a href="/app_test.php/de/perks/list/perksPerPage/20">20</a> <span class="divider">|</span></li>
+                <li class="active"><a href="/app_test.php/de/perks/list/perksPerPage/50">50</a></li>
+                <li>Angebote</li>
+            </ul>
+            <ul class="breadcrumb pull-right right-25">
+                <li>Sortiert nach&nbsp;&nbsp;&nbsp;</li>
+                <li class="active"><a href="/app_test.php/de/perks/list/sort/popularity">Beliebtheit</a> <span class="divider">|</span> </li>
+                <li ><a href="/app_test.php/de/perks/list/sort/distance">Entfernung</a> <span class="divider">|</span> </li>
+                <li ><a href="/app_test.php/de/perks/list/sort/newest">Neu</a> <span class="divider">|</span></li>
+                <li ><a href="/app_test.php/de/perks/list/sort/saving">Rabatt</a></li>
+            </ul>
+            <table class="table table-striped">
+                <tbody>
+                                <tr>
+                    <td class="img">
+                        <a href="/app_test.php/de/perk/4">
+                                                <img src="/img/logos/nologo.png" />
+                                                </a>
+                    </td>
+                    <td>
+                        <strong><a href="/app_test.php/de/perk/4">Fitness Studio</a></strong>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr <a href="/app_test.php/de/perk/4">Details</a>
+                            <br />
+                            <small>
+                                                            </small>
+                        </p>
+                    </td>
+                    <td class="percent"><a href="#" class="perk-distance-tooltip" rel="tooltip" title="Ersparnis"><span style="font-weight: normal;">&lt;</span>&nbsp;66%</a></td>
+                                        <td class="distance">
+                        <strong>
+                                                        <a href="#" class="perk-distance-tooltip" rel="tooltip" title="Entfernung" >256,86&nbsp;km</a>
+                                                    </strong>
+                    </td>
+                </tr>
+                                <tr>
+                    <td class="img">
+                        <a href="/app_test.php/de/perk/6">
+                                                <img src="/img/logos/nologo.png" />
+                                                </a>
+                    </td>
+                    <td>
+                        <strong><a href="/app_test.php/de/perk/6">Luigi&#039;s Restaurant</a></strong>
+                        <p>Lorem ipsum dolor sit amet <a href="/app_test.php/de/perk/6">Details</a>
+                            <br />
+                            <small>
+                                                            </small>
+                        </p>
+                    </td>
+                    <td class="percent"><a href="#" class="perk-distance-tooltip" rel="tooltip" title="Ersparnis"><span style="font-weight: normal;">&lt;</span>&nbsp;85%</a></td>
+                                        <td class="distance">
+                        <strong>
+                                                        <a href="#" class="perk-distance-tooltip" rel="tooltip" title="Entfernung" >259,32&nbsp;km</a>
+                                                    </strong>
+                    </td>
+                </tr>
+                                <tr>
+                    <td class="img">
+                        <a href="/app_test.php/de/perk/5">
+                                                <img src="/img/logos/nologo.png" />
+                                                </a>
+                    </td>
+                    <td>
+                        <strong><a href="/app_test.php/de/perk/5">H&amp;M</a></strong>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam  <a href="/app_test.php/de/perk/5">Details</a>
+                            <br />
+                            <small>
+                                                            </small>
+                        </p>
+                    </td>
+                    <td class="percent"><a href="#" class="perk-distance-tooltip" rel="tooltip" title="Ersparnis"><span style="font-weight: normal;">&lt;</span>&nbsp;66%</a></td>
+                                        <td class="distance">
+                        <strong>
+                                                        <a href="#" class="perk-distance-tooltip" rel="tooltip" title="Entfernung" >258,94&nbsp;km</a>
+                                                    </strong>
+                    </td>
+                </tr>
+                                <tr>
+                    <td class="img">
+                        <a href="/app_test.php/de/perk/2">
+                                                <img src="/img/logos/nologo.png" />
+                                                </a>
+                    </td>
+                    <td>
+                        <strong><a href="/app_test.php/de/perk/2">Curry36</a></strong>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy. <a href="/app_test.php/de/perk/2">Details</a>
+                            <br />
+                            <small>
+                                                                    Tags:                                    <a href="/app_test.php/de/perks/list/tagId/3">Lasers</a>                                                            </small>
+                        </p>
+                    </td>
+                    <td class="percent"><a href="#" class="perk-distance-tooltip" rel="tooltip" title="Ersparnis"><span style="font-weight: normal;">&lt;</span>&nbsp;66%</a></td>
+                                        <td class="distance">
+                        <strong>
+                                                        <a href="#" class="perk-distance-tooltip" rel="tooltip" title="Entfernung" >260,15&nbsp;km</a>
+                                                    </strong>
+                    </td>
+                </tr>
+                                <tr>
+                    <td class="img">
+                        <a href="/app_test.php/de/perk/7">
+                                                <img src="/img/logos/nologo.png" />
+                                                </a>
+                    </td>
+                    <td>
+                        <strong><a href="/app_test.php/de/perk/7">Reynholm Industries</a></strong>
+                        <p>LoremShortDescription <a href="/app_test.php/de/perk/7">Details</a>
+                            <br />
+                            <small>
+                                                            </small>
+                        </p>
+                    </td>
+                    <td class="percent"><a href="#" class="perk-distance-tooltip" rel="tooltip" title="Ersparnis"><span style="font-weight: normal;">&lt;</span>&nbsp;0%</a></td>
+                                        <td class="distance">
+                        <strong>
+                                                        <a href="#" class="perk-distance-tooltip" rel="tooltip" title="Entfernung" >260,85&nbsp;km</a>
+                                                    </strong>
+                    </td>
+                </tr>
+                                <tr>
+                    <td class="img">
+                        <a href="/app_test.php/de/perk/3">
+                                                <img src="/img/logos/nologo.png" />
+                                                </a>
+                    </td>
+                    <td>
+                        <strong><a href="/app_test.php/de/perk/3">Rabatt auf Handys im Weltall</a></strong>
+                        <p>Lorem ipsum dolor sit amet <a href="/app_test.php/de/perk/3">Details</a>
+                            <br />
+                            <small>
+                                                                    Tags:                                    <a href="/app_test.php/de/perks/list/tagId/1">Food &amp; Liquor</a>,                                                                                                         <a href="/app_test.php/de/perks/list/tagId/2">Cool</a>                                                            </small>
+                        </p>
+                    </td>
+                    <td class="percent"><a href="#" class="perk-distance-tooltip" rel="tooltip" title="Ersparnis"><span style="font-weight: normal;">&lt;</span>&nbsp;66%</a></td>
+                                        <td class="distance">
+                        <strong>
+                                                        <a href="#" class="perk-distance-tooltip" rel="tooltip" title="Entfernung" >261,39&nbsp;km</a>
+                                                    </strong>
+                    </td>
+                </tr>
+                                <tr>
+                    <td class="img">
+                        <a href="/app_test.php/de/perk/1">
+                                                <img src="/img/logos/nologo.png" />
+                                                </a>
+                    </td>
+                    <td>
+                        <strong><a href="/app_test.php/de/perk/1">Cinemaxx Berlin</a></strong>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr <a href="/app_test.php/de/perk/1">Details</a>
+                            <br />
+                            <small>
+                                                            </small>
+                        </p>
+                    </td>
+                    <td class="percent"><a href="#" class="perk-distance-tooltip" rel="tooltip" title="Ersparnis"><span style="font-weight: normal;">&lt;</span>&nbsp;33%</a></td>
+                                        <td class="distance">
+                        <strong>
+                                                        <a href="#" class="perk-distance-tooltip" rel="tooltip" title="perk.tooltip.online" >Online</a>
+                                                    </strong>
+                    </td>
+                </tr>
+                                </tbody>
+            </table>
+            
+
+        </div>
+    </div>
+</div>
+                </div>
+            </div><!-- /container -->
+            <div class="shadow"></div>
+            <!-- Footer ================================================== -->
+<div class="footercont">
+    <div class="container">
+        <footer class="footer">
+
+            
+            <div class="row-fluid">
+                <div class="span8">
+                    <ul class="nav nav-pills pull-left" id="footer-menu">
+                        <li class="regular">© 2012 happy<strong>staff</strong></li>
+                        <li class=""><a href="/app_test.php/de/about">Über uns</a></li>
+                        <li><a href="/app_test.php/de/faq">FAQ</a></li>
+                        <li><a href="/app_test.php/de/jobs">Jobs</a></li>
+                        <li><a href="/app_test.php/de/press">Presse</a></li>
+                        <li><a href="/app_test.php/de/imprint">Impressum</a></li>
+                        <li><a href="/app_test.php/de/contact">Kontakt</a></li>
+                        <li><a href="/app_test.php/de/terms">AGB & Datenschutz</a></li>
+                    </ul>
+                </div>
+                <div class="span2">
+                    <small>Sicher bezahlen:</small><br>
+                                        <img src="/img/footer/norton-seal-100.gif" alt="Norton" />
+                                    </div>
+                <div class="span2">
+                    <small>Unsere Zahlmethoden:</small><br>
+                    <ul class="nav nav-pills">
+                        <li class="top-10"><img src="/img/footer/payment-ec.jpg" alt="Lastschrift" /></li>
+                        <li class="top-10"><img src="/img/footer/payment-mastercard.jpg" alt="Mastercard" /></li>
+                        <li class="top-10"><img src="/img/footer/payment-visa.jpg" alt="Visa" /></li>
+                        <li class="top-10"><img src="/img/footer/payment-paypal.jpg" alt="Paypal" /></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>        </div><!--/city -->
+    </div><!--/wood -->
+        </div><!--/wood -->
+    </div><!--/clouds -->
+</div><!--/pattern -->
+
+            <div id="fdbkTab" class="fdbk" data-toggle="modal" href="#fdbkContainer">
+    Meinung sagen!
+</div>
+
+<div class="modal hide" id="fdbkContainer">
+    <div class="modal-hanging"></div>
+    <div class="modal-inner">
+        <div class="modal-header">
+            <button class="close" data-dismiss="modal">×</button>
+            <h3>Helfen Sie uns happy<strong>staff</strong> zu verbessern!</h3>
+        </div>
+        <form class="form-inline" action="https://www.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="post">
+            <div class="modal-body">
+                <input type="hidden" name="orgid" value="00DD0000000qJa3">
+                <input type="hidden" name="retURL" value="http://happystaff/app_test.php/de/thankyou/Feedback">
+                <input type="hidden" name="type" value="Feedback">
+                <input type="hidden" name="priority" value="Niedrig">
+                <input type="hidden" name="subject" value="Kunden-Feedback">
+                <input type="hidden" name="company" value="">
+                <input type="hidden" name="name" value="marx beck">
+                <input type="hidden" name="email" value="test@employee.de">
+                <input type="hidden" name="phone" value="">
+                <textarea required id="description" name="description" placeholder="Teilen Sie uns ihr Feedback mit." rows="5" class="span100"></textarea>
+            </div>
+            <div class="modal-footer">
+                <!--<button class="btn" data-dismiss="modal">Close</button>-->
+                <button type="submit" class="btn btn-primary">Senden</button>
+            </div>
+        </form>
+    </div>
+</div>
+    
+<!-- Javascripts
+================================================== -->
+<script src="/app_test.php/js/main_jquery_1.js"></script>
+<script src="/app_test.php/js/main_jquery-ui-1.7.3.custom.min_2.js"></script>
+<script src="/app_test.php/js/main_prettify_3.js"></script>
+<script src="/app_test.php/js/main_bootstrap.min_4.js"></script>
+<script src="/app_test.php/js/main_application_5.js"></script>
+<script src="/app_test.php/js/main_googlemaps_6.js"></script>
+<script src="/app_test.php/js/main_employer_7.js"></script>
+<script type="text/javascript">
+    var reqFieldsHint = 'Pflichtfelder';
+</script>
+
+<div id="sfwdt503e13ca0af08" style="display: none"></div><script type="text/javascript">/*<![CDATA[*/    (function () {        var wdt, xhr;        wdt = document.getElementById('sfwdt503e13ca0af08');        if (window.XMLHttpRequest) {            xhr = new XMLHttpRequest();        } else {            xhr = new_ActiveXObject('Microsoft.XMLHTTP');        }        xhr.open('GET', '/app_test.php/_wdt/503e13ca0af08', true);        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');        xhr.onreadystatechange = function(state) {            if (4 === xhr.readyState && 200 === xhr.status && -1 !== xhr.responseText.indexOf('sf-toolbarreset')) {                wdt.innerHTML = xhr.responseText;                wdt.style.display = 'block';            }        };        xhr.send('');    })();/*]]>*/</script>
+</body>
+</html>

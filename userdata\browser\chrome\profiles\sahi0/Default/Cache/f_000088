@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="de">
+<head><!--SAHI_INJECT_START-->
+<script>/*<![CDATA[*//*---->*/__sahiDebugStr__="";__sahiDebug__=function(s){__sahiDebugStr__+=(s+"\n");};/*--*//*]]>*/</script>
+<script src="/_s_/spr/domainfix.js"></script>
+<script src='/_s_/spr/concat.js' id='_sahi_concat'></script>
+<script src='http://sahi.example.com/_s_/dyn/SessionState/state.js'></script>
+<script src='/_s_/spr/language_pack.js' id='langpack'></script>
+<script>/*<![CDATA[*//*---->*/_sahi.createCookie('sahisid', _sahi.sid);_sahi.loadXPathScript()/*--*//*]]>*/</script>
+<script>/*<![CDATA[*//*---->*/eval(_sahi.sendToServer("/_s_/dyn/Player_script/script.js"));/*--*//*]]>*/</script>
+<script src='/_s_/spr/playback.js'></script>
+<!--SAHI_INJECT_END-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Ihre Bestellung | happystaff | for better companies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="author" content="happystaff">
+    <meta name="copyright" content="(c) 2012 happystaff">
+    <meta name="description" content="happystaff ermöglicht es kleinen und mittleren Unternehmen Ihren Mitarbeitern dauerhaft attraktive und exklusive Vorteile anzubieten.">
+        <!-- Styles -->
+        <link rel="stylesheet" href="/app_test.php/css/hs_bootstrap_1.css" />
+        <link rel="stylesheet" href="/app_test.php/css/hs_bootstrap-responsive_2.css" />
+        <link rel="stylesheet" href="/app_test.php/css/hs_happystaff_3.css" />
+        <link rel="stylesheet" href="/app_test.php/css/hs_prettify_4.css" />
+            <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+</head>
+
+<body id="payment" class="logged-in" data-spy="scroll" data-target=".subnav" data-offset="50">
+
+
+
+<div id="errorMsgWrongInfo" class="alert alert-error hide">
+    <button class="close" data-dismiss="alert">×</button>
+    Fehlerhafte Daten
+</div>
+<div id="errorMsgPaymentUnsuccessful" class="alert alert-error hide">
+    <button class="close" data-dismiss="alert">×</button>
+    Der Bezahlvorgang ist fehlgeschlagen
+</div>
+<div id="errorAcceptTerms" class="flash-notice alert alert-error hide">
+    <button class="close" data-dismiss="alert">×</button>
+    Bitte akzeptieren Sie unsere AGBs
+</div>
+<div id="body-pattern">
+    <div id="body-glow">
+        <div id="body-clouds">        <!-- Navbar
+================================================== -->
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <div class="nav-collapse collapse">
+                <ul class="nav metahead">
+                                    <li><a href="/app_test.php/de/logout">Abmeldung</a></li>
+                    <li><a href="/app_test.php/de/faq">Hilfe</a></li>
+                    <li><a href="/app_test.php/de/user/settings">Meine Daten</a></li>
+                    <li><a href="/app_test.php/de/user/dashboard">Home</a></li>
+                </ul>
+                <div class="pull-left welcome-user">
+                    <span class="right-10">
+                        Hallo,
+                        <a href="/app_test.php/de/user/dashboard" > marx beck</a>!
+                    </span>
+                                            <span class="right-10">|</span>
+                        <span>
+                            Mein Bonus-Guthaben:
+                            <strong>300,00 &euro;</strong>
+                        </span>
+                                    </div>
+                            </div>
+        </div>
+    </div>
+</div>        <div class="container">
+            <!-- Masthead
+            ================================================== -->
+            <header class="jumbotron masthead">
+                <div class="inner">
+                    
+<div class="clearfix">
+    <div id="logo"><a href="/app_test.php/de/user/dashboard">happystaff</a></div>
+    <div class="headbtn">
+        
+            
+                                    <form class="pull-right form-search" id="search-top" action="/app_test.php/de/perks/list" method="get">
+                        <input type="hidden" name="search" value="1" />
+                        <input type="text" name="searchString" class="input-xlarge search-query" placeholder="Angebote finden..." >
+                        <div class="searching" onclick="document.getElementById('search-top').submit();"></div>
+                    </form>
+                                    
+
+    </div>
+</div>
+                                    </div>
+            </header>
+        </div><!-- /container -->
+            <div id="body-wood">
+        <div id="body-city">
+            <div class="container">
+                <!-- Tabbed Content
+                ================================================== -->
+                <ul class="nav nav-tabs flex-tabs top-40" id="">
+    <li id="checkout-summary" class="active"><a href="#">Ihre Bestellung</a></li>
+</ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade active in" id="payment">
+<div class="row-fluid">
+    <div class="span12 remove-margin" style="min-height: 900px;">
+        <section id="summary" class="well">
+            <div>
+                <div class="pull-left">
+                    <h2 class=""><span class="badge" style=" font-size: 30px;">1</span> Ihre Bestellung</h2>
+                </div>
+                <div class="pull-right" >
+                    <a href="/app_test.php/de/perk/3" class="btn">Ändern</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <table class="table table-striped top-20">
+                <thead>
+                <tr>
+                    <th>Menge</th>
+                    <th>Artikel</th>
+                    <th class="text-right">Originalpreis</th>
+                    <th class="text-right"><span style="font-weight: normal;">happy</span><strong>staff</strong> Preis</th>
+                </tr>
+                </thead>
+                <tbody>
+                                <tr class="border-top">
+                    <td class="width-50">1</td>
+                    <td>
+                        <h4>Blaues T-Shirt <small class="light">(66% Ersparnis)</small></h4>
+                        Lorem Test Item Desc
+                    </td>
+                    <td class="text-right"><span class="line-through">60,00 &euro;</span></td>
+                    <td class="text-right">20,00 &euro;</td>
+                </tr>
+                                <tr></tr>
+                <tr class="border-top-2">
+                    <td></td>
+                    <td><h3>Gesamtpreis</h3></td>
+                    <td></td>
+                    <td class="text-right"><h3>20,00 &euro;</h3></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="light"><h3>Sie sparen mit happy<strong>staff</strong></h3></td>
+                    <td class="light text-right"></td>
+                    <td class="light text-right"><h3>40,00 &euro;</h3></td>
+                </tr>
+
+
+                </tbody>
+            </table>
+        </section>
+        <div class="clearfix bottom-20"></div>
+
+        <section id="paymentInfo" class="well">
+            <div class="pull-left">
+                <h2 style="text-align: left;"><span class="badge" style=" font-size: 30px;">2</span>  Zahlungsart wählen</h2>
+            </div>
+            <div class="pull-right">
+                <input id="changeMethod" type="button" value="Ändern" class="btn hide" />
+            </div>
+            <div class="clearfix"></div>
+            
+<div id="methodsForms" class="hide">
+                    <label class="radio">
+            <input type="radio" name="paymentMethod" id="paymentMethodcredit"  checked />Bonus-Guthaben
+        </label>
+                    <label class="radio">
+            <input type="radio" name="paymentMethod" id="paymentMethodcreditcard" />Kreditkarte
+        </label>
+                    <label class="radio">
+            <input type="radio" name="paymentMethod" id="paymentMethodpaypal" />PayPal
+        </label>
+                    <label class="radio">
+            <input type="radio" name="paymentMethod" id="paymentMethoddirectdebit" />Lastschrift
+        </label>
+    
+    <hr class="dotted"/>
+
+        <div>
+        <div class="paymentMethodContent" id="paymentMethodcreditContent">
+    <form id="cform" action="/app_test.php/de/order/payment/bfe82cea96b0a0ca0c505fe7b26e60e5/credit" method="POST" class="form-horizontal no-margin-bottom">
+        <input type="hidden" name="payment_method" value="credit">
+        <span>Nutzen Sie Ihr Bonus-Guthaben um die Bestellung zu bezahlen.</span>
+        <div id="paymentMethodCredit" class="top-10">
+            <div class="control-group remove-bottom">
+                <div class="controls">
+                <table class="table table-striped remove-bottom" id="credit-summary-table">
+                    <tbody>
+                    <tr>
+                        <td class="text-right width-200"><h3>Aktuelles Bonus-Guthaben:</h3></td>
+                        <td class="text-right"><h3>300,00 &euro;</h3></td>
+                    </tr>
+                    <tr>
+                        <td class="text-right"><h3>Abzgl. Gesamtpreis:</h3></td>
+                        <td class="text-right"><h3>-20,00 &euro;</h3></td>
+                    </tr>
+                    <tr class="border-top-2">
+                                                <td class="text-right"><h3><b>Restliches Bonus-Guthaben:</b></h3></td>
+                        <td class="text-right"><h3><b>280,00 &euro;</b></h3></td>
+                    </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="text-right" >
+            <input type="button" id="useMethodCredit" value="Weiter" class="btn btn-primary" />
+        </div>
+    </form>
+</div>    </div>
+        <div>
+        <div class="paymentMethodContent" id="paymentMethodcreditcardContent">
+    <form id="ccform" class="form-horizontal no-margin-bottom" action="https://secure.pay1.de/client-api/" method="POST">
+        <input type="hidden" name="aid" value="19465">
+        <input type="hidden" name="errorurl" value="http://happystaff/app_test.php/de/order/payment/bfe82cea96b0a0ca0c505fe7b26e60e5/creditcard/error">
+        <input type="hidden" name="storecarddata" value="yes">
+        <input type="hidden" name="mid" value="19355">
+        <input type="hidden" name="mode" value="test">
+        <input type="hidden" name="portalid" value="2013938">
+        <input type="hidden" name="request" value="creditcardcheck">
+        <input type="hidden" name="responsetype" value="REDIRECT">
+        <input type="hidden" name="successurl" value="http://happystaff/app_test.php/de/order/payment/bfe82cea96b0a0ca0c505fe7b26e60e5/creditcard/use">
+        <input type="hidden" name="hash" value="cff009e1979e7d94f381949a99e4690a">
+        <input type="hidden" name="encoding" value="UTF-8">
+        <input type="hidden" name="language" value="de">
+        <input type="hidden" name="cardexpiredate" value="">
+        <input type="hidden" name="payment_method" value="creditcard">
+        <input type="hidden" name="successurlsave" value="http://happystaff/app_test.php/de/order/payment/bfe82cea96b0a0ca0c505fe7b26e60e5/creditcard/save">
+        <input type="hidden" name="successurluse" value="http://happystaff/app_test.php/de/order/payment/bfe82cea96b0a0ca0c505fe7b26e60e5/creditcard/use">
+        <input type="hidden" name="hashsave" value="a22e99e63d83b417c5c13fd245d6b1c1">
+        <input type="hidden" name="hashuse" value="cff009e1979e7d94f381949a99e4690a">
+
+        
+        <div id="paymentMethodNewCreditCard">
+
+        
+            <div class="control-group no-margin-bottom">
+                <label class="control-label">Kartentyp:</label>
+                <div class="controls">
+                    <select name="cardtype" class="span3">
+                        <option value="V">VISA</option>
+                        <option value="M">MasterCard</option>
+                    </select>
+                </div>
+            </div>
+            <div class="control-group no-margin-bottom">
+                <label class="control-label">Kartennummer:</label>
+                <div class="controls">
+                    <input type="text" name="cardpan" id="cardpan" class="span3" maxlength="16">
+                </div>
+            </div>
+            <div class="control-group no-margin-bottom">
+                <label class="control-label">Gültig bis:</label>
+                <div class="controls">
+                    <select name="expiremonth" class="span3">
+                        <option value="01">Januar</option>
+                        <option value="02">Februar</option>
+                        <option value="03">März</option>
+                        <option value="04">April</option>
+                        <option value="05">Mai</option>
+                        <option value="06">Juni</option>
+                        <option value="07">Juli</option>
+                        <option value="08">August</option>
+                        <option value="09">September</option>
+                        <option value="10">Oktober</option>
+                        <option value="11">November</option>
+                        <option value="12">Dezember</option>
+                    </select>
+                    <select name="expireyear" class="span3">
+                                                <option value="12">2012</option>
+                                                <option value="13">2013</option>
+                                                <option value="14">2014</option>
+                                                <option value="15">2015</option>
+                                                <option value="16">2016</option>
+                                                <option value="17">2017</option>
+                                                <option value="18">2018</option>
+                                                <option value="19">2019</option>
+                                                <option value="20">2020</option>
+                                            </select>
+                </div>
+            </div>
+            <div class="control-group no-margin-bottom">
+                <label class="control-label">Sicherheitscode:</label>
+                <div class="controls">
+                    <input type="text" name="cardcvc2" id="cardcvc2" class="span3 input-mini" maxlength="3">
+                </div>
+            </div>
+            <div class="control-group no-margin-bottom">
+                <div class="controls">
+                    <label class="checkbox">
+                        <input type="checkbox" id="saveInfoCreditCard" name="saveInfoCreditCard" />Zahlungsdaten speichern
+                    </label>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-right" >
+            <input type="button" id="paymentMethodCancelCreditCard" value="Abbrechen" class="btn btn-inverse hide" />&nbsp;&nbsp;&nbsp;
+            <input type="button" id="useMethodCreditCard" value="Weiter" class="btn btn-primary" />
+        </div>
+
+<!--
+        <div class="text-right top-20">
+            <button type="submit" class="btn btn-primary" onclick="document.forms['ccform']['cardexpiredate'].value = document.forms['ccform']['expireyear'].value + document.forms['ccform']['expiremonth'].value;">Jetzt bezahlen</button>
+        </div>
+-->
+    </form>
+</div>    </div>
+        <div>
+        <div class="paymentMethodContent" id="paymentMethodpaypalContent">
+    <form id="ppform" action="/app_test.php/de/order/payment/bfe82cea96b0a0ca0c505fe7b26e60e5/paypal" method="POST" class="form-horizontal no-margin-bottom">
+        <input type="hidden" name="payment_method" value="paypal">
+        <p>Sie werden zu PayPal weitergeleitet und nach erfolgreicher Bezahlung zu unserer Seite zurückgeführt.</p>
+
+        <div class="text-right" >
+            <input type="button" id="useMethodPaypal" value="Weiter" class="btn btn-primary" />
+        </div>
+    </form>
+</div>    </div>
+        <div>
+        <div class="paymentMethodContent" id="paymentMethoddirectdebitContent">
+    <form id="ddform" action="/app_test.php/de/order/payment/bfe82cea96b0a0ca0c505fe7b26e60e5/directdebit" method="POST" class="form-horizontal no-margin-bottom">
+        <input type="hidden" name="bankcountry" value="DE">
+        <input type="hidden" name="payment_method" value="directdebit">
+
+
+        
+        <div id="paymentMethodNewDirectDebit">
+
+        
+            <div class="control-group no-margin-bottom">
+                <label class="control-label">Kontoinhaber:</label>
+                <div class="controls">
+                    <input type="text" name="bankaccountholder" id="bankaccountholder" value="marx beck">
+                </div>
+            </div>
+            <div class="control-group no-margin-bottom">
+                <label class="control-label">Kontonummer:</label>
+                <div class="controls">
+                    <input type="text" name="bankaccount" id="bankaccount" maxlength="10">
+                </div>
+            </div>
+            <div class="control-group no-margin-bottom">
+                <label class="control-label">Bankleitzahl:</label>
+                <div class="controls">
+                    <input type="text" name="bankcode" id="bankcode" maxlength="8">
+                </div>
+            </div>
+            <div class="control-group no-margin-bottom">
+                <div class="controls">
+                    <label class="checkbox">
+                        <input type="checkbox" id="saveInfoDirectDebit" name="saveInfoDirectDebit" />Zahlungsdaten speichern
+                    </label>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-right" >
+            <input type="button" id="paymentMethodCancelDirectDebit" value="Abbrechen" class="btn btn-inverse hide" />&nbsp;&nbsp;&nbsp;
+            <input type="button" id="useMethodDirectDebit" value="Weiter" class="btn btn-primary" />
+        </div>
+
+        <!--
+        <div class="text-right top-20">
+            <button type="submit" class="btn btn-primary">Jetzt bezahlen</button>
+        </div>
+        -->
+    </form>
+</div>    </div>
+    </div>
+
+<div id="methodUsed" class="form-horizontal no-margin-bottom hide">
+    <div class="control-group remove-bottom" id="methodUsedTitle">
+        <label class="control-label"><strong>Zahlungsart: </strong></label>
+        <div class="controls">
+            <label class="checkbox remove-padding-left"> </label>
+        </div>
+    </div>
+
+    <div id="methodUsedDescription">
+    </div>
+</div>
+        </section>
+        <div class="clearfix bottom-20"></div>
+
+        <section id="paymentConfirm" class="well hide" >
+            <h2 style="text-align: left;"><span class="badge" style=" font-size: 30px;">3</span>  Bestätigung</h2>
+            <div>
+                <div class="center-it" >
+                    <input type="button" id="sendOrder" value="Jetzt kaufen" class="btn btn-large btn-primary" />
+                </div>
+                <div class="clearfix"></div>
+                <div class="footer" style="margin-top: 20px;">
+                    <p class="checkbox">
+                        <!--<input type="checkbox" id="acceptTerms" name="acceptTerms" />-->Mit Ihrer Bestellung erklären Sie sich mit unseren AGB für Arbeitnehmer,
+ Widerrufsbestimmungen sowie unserer Datenschutzerklärung einverstanden. Als Kunde von happystaff.de erhalten Sie Angebotsempfehlungen per Mail. Dem können Sie jederzeit durch eine Nachricht an datenschutz@happystaff.de widersprechen oder den Link verwenden, der unten in der Mail angegeben ist.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    </div>
+</div>
+                </div>
+            </div><!-- /container -->
+            <div class="shadow"></div>
+            <!-- Footer ================================================== -->
+<div class="footercont">
+    <div class="container">
+        <footer class="footer">
+
+            
+            <div class="row-fluid">
+                <div class="span8">
+                    <ul class="nav nav-pills pull-left" id="footer-menu">
+                        <li class="regular">© 2012 happy<strong>staff</strong></li>
+                        <li class=""><a href="/app_test.php/de/about">Über uns</a></li>
+                        <li><a href="/app_test.php/de/faq">FAQ</a></li>
+                        <li><a href="/app_test.php/de/jobs">Jobs</a></li>
+                        <li><a href="/app_test.php/de/press">Presse</a></li>
+                        <li><a href="/app_test.php/de/imprint">Impressum</a></li>
+                        <li><a href="/app_test.php/de/contact">Kontakt</a></li>
+                        <li><a href="/app_test.php/de/terms">AGB & Datenschutz</a></li>
+                    </ul>
+                </div>
+                <div class="span2">
+                    <small>Sicher bezahlen:</small><br>
+                                        <img src="/img/footer/norton-seal-100.gif" alt="Norton" />
+                                    </div>
+                <div class="span2">
+                    <small>Unsere Zahlmethoden:</small><br>
+                    <ul class="nav nav-pills">
+                        <li class="top-10"><img src="/img/footer/payment-ec.jpg" alt="Lastschrift" /></li>
+                        <li class="top-10"><img src="/img/footer/payment-mastercard.jpg" alt="Mastercard" /></li>
+                        <li class="top-10"><img src="/img/footer/payment-visa.jpg" alt="Visa" /></li>
+                        <li class="top-10"><img src="/img/footer/payment-paypal.jpg" alt="Paypal" /></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>        </div><!--/city -->
+    </div><!--/wood -->
+        </div><!--/wood -->
+    </div><!--/clouds -->
+</div><!--/pattern -->
+
+            <div id="fdbkTab" class="fdbk" data-toggle="modal" href="#fdbkContainer">
+    Meinung sagen!
+</div>
+
+<div class="modal hide" id="fdbkContainer">
+    <div class="modal-hanging"></div>
+    <div class="modal-inner">
+        <div class="modal-header">
+            <button class="close" data-dismiss="modal">×</button>
+            <h3>Helfen Sie uns happy<strong>staff</strong> zu verbessern!</h3>
+        </div>
+        <form class="form-inline" action="https://www.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="post">
+            <div class="modal-body">
+                <input type="hidden" name="orgid" value="00DD0000000qJa3">
+                <input type="hidden" name="retURL" value="http://happystaff/app_test.php/de/thankyou/Feedback">
+                <input type="hidden" name="type" value="Feedback">
+                <input type="hidden" name="priority" value="Niedrig">
+                <input type="hidden" name="subject" value="Kunden-Feedback">
+                <input type="hidden" name="company" value="">
+                <input type="hidden" name="name" value="marx beck">
+                <input type="hidden" name="email" value="test@employee.de">
+                <input type="hidden" name="phone" value="">
+                <textarea required id="description" name="description" placeholder="Teilen Sie uns ihr Feedback mit." rows="5" class="span100"></textarea>
+            </div>
+            <div class="modal-footer">
+                <!--<button class="btn" data-dismiss="modal">Close</button>-->
+                <button type="submit" class="btn btn-primary">Senden</button>
+            </div>
+        </form>
+    </div>
+</div>
+    
+<!-- Javascripts
+================================================== -->
+    <script src="/app_test.php/js/main_jquery_1.js"></script>
+<script src="/app_test.php/js/main_jquery-ui-1.7.3.custom.min_2.js"></script>
+<script src="/app_test.php/js/main_prettify_3.js"></script>
+<script src="/app_test.php/js/main_bootstrap.min_4.js"></script>
+<script src="/app_test.php/js/main_application_5.js"></script>
+<script src="/app_test.php/js/main_googlemaps_6.js"></script>
+<script src="/app_test.php/js/main_employer_7.js"></script>
+<script type="text/javascript">
+    var reqFieldsHint = 'Pflichtfelder';
+</script>
+
+    <script src="/js/plugins.js" type="text/javascript"></script>
+    <script src="/js/creditcard.js" type="text/javascript"></script>
+
+<div id="sfwdt503e14f6a6fe7" style="display: none"></div><script type="text/javascript">/*<![CDATA[*/    (function () {        var wdt, xhr;        wdt = document.getElementById('sfwdt503e14f6a6fe7');        if (window.XMLHttpRequest) {            xhr = new XMLHttpRequest();        } else {            xhr = new_ActiveXObject('Microsoft.XMLHTTP');        }        xhr.open('GET', '/app_test.php/_wdt/503e14f6a6fe7', true);        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');        xhr.onreadystatechange = function(state) {            if (4 === xhr.readyState && 200 === xhr.status && -1 !== xhr.responseText.indexOf('sf-toolbarreset')) {                wdt.innerHTML = xhr.responseText;                wdt.style.display = 'block';            }        };        xhr.send('');    })();/*]]>*/</script>
+</body>
+</html>

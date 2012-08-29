@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="de">
+<head><!--SAHI_INJECT_START-->
+<script>/*<![CDATA[*//*---->*/__sahiDebugStr__="";__sahiDebug__=function(s){__sahiDebugStr__+=(s+"\n");};/*--*//*]]>*/</script>
+<script src="/_s_/spr/domainfix.js"></script>
+<script src='/_s_/spr/concat.js' id='_sahi_concat'></script>
+<script src='http://sahi.example.com/_s_/dyn/SessionState/state.js'></script>
+<script src='/_s_/spr/language_pack.js' id='langpack'></script>
+<script>/*<![CDATA[*//*---->*/_sahi.createCookie('sahisid', _sahi.sid);_sahi.loadXPathScript()/*--*//*]]>*/</script>
+<script>/*<![CDATA[*//*---->*/eval(_sahi.sendToServer("/_s_/dyn/Player_script/script.js"));/*--*//*]]>*/</script>
+<script src='/_s_/spr/playback.js'></script>
+<!--SAHI_INJECT_END-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>happystaff | for better companies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="author" content="happystaff">
+    <meta name="copyright" content="(c) 2012 happystaff">
+    <meta name="description" content="happystaff ermöglicht es kleinen und mittleren Unternehmen Ihren Mitarbeitern dauerhaft attraktive und exklusive Vorteile anzubieten.">
+        <!-- Styles -->
+        <link rel="stylesheet" href="/app_test.php/css/hs_bootstrap_1.css" />
+        <link rel="stylesheet" href="/app_test.php/css/hs_bootstrap-responsive_2.css" />
+        <link rel="stylesheet" href="/app_test.php/css/hs_happystaff_3.css" />
+        <link rel="stylesheet" href="/app_test.php/css/hs_prettify_4.css" />
+            <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+</head>
+
+<body id="homepage" data-spy="scroll" data-target=".subnav" data-offset="50">
+
+
+<div id="body-pattern">
+    <div id="body-glow">
+        <div id="body-clouds-home">        <!-- Navbar
+================================================== -->
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <div class="nav-collapse collapse">
+                <ul class="nav metahead">
+                                    <li class="">
+                        <a href="/app_test.php/de/about" id="about-link">Über uns</a>
+                    </li>
+                    <li class="partner">
+                        <a href="/app_test.php/de/features#partner">Kooperationspartner</a>
+                    </li>
+                    <li class="staff">
+                        <a href="/app_test.php/de/features#staff">Arbeitnehmer</a>
+                    </li>
+                    <li class="employer">
+                        <a href="/app_test.php/de/features#employer">Arbeitgeber</a>
+                    </li>
+                </ul>
+                            </div>
+        </div>
+    </div>
+</div>        <div class="container">
+            <!-- Masthead
+            ================================================== -->
+            <header class="jumbotron masthead">
+                <div class="inner">
+                    
+<div class="clearfix">
+    <div id="logo"><a href="/app_test.php/de/user/dashboard">happystaff</a></div>
+    <div class="headbtn">
+                <div class="btn-group pull-right">
+            <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                Registrieren
+                <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a data-toggle="modal" href="#signup-employ">Als Arbeitgeber</a></li>
+                <li class="divider"></li>
+                <li><a data-toggle="modal" href="#signup-partner">Als Partner</a></li>
+            </ul>
+        </div>
+
+        <a class="btn btn-inverse" href="/app_test.php/de/login">Login</a>
+        
+
+    </div>
+</div>
+                    <h1>Zufriedene Mitarbeiter für erfolgreiche Unternehmen</h1>
+<p>Wir bieten Mitarbeitern direkten Zugang zu attraktiven Vergünstigungen <br /> bei lokalen Partnern für Entspannung und Genuss im Alltag.</p>
+                </div>
+            </header>
+        </div><!-- /container -->
+        <div id="body-wood-home">
+    <div id="body-city">
+        <div class="container">
+            <div id="cta"><a href="/app_test.php/de/features" class="btn btn-primary btn-large">Mehr erfahren</a></div>
+            <div id="character"><img src="/img/home/home-character.png" alt="happystaff"></div>
+            <ul class="thumbnails feature-teaser">
+                <li class="span4">
+                    <div class="thumbnail">
+                        <div class="inner">
+                            <div class="top">
+                                <h3>Für Arbeitgeber</h3>
+                                <p>Belohnen Sie das Engagement Ihrer Mitarbeiter und steigern Sie so dauerhaft <strong>Mitarbeiterzufriedenheit</strong> und <strong>-bindung</strong> für nachhaltigen <strong>Unternehmenserfolg</strong>.</p>
+                                <div class="img-employer">
+                                    <img src="/img/home/teaser-employer.png" />
+                                </div>
+                            </div>
+                            <hr class="dotted"/>
+                            <div class="bottom">
+                                <a href="/app_test.php/de/features#employer" class="btn btn-primary btn-large">Mehr erfahren</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="span4">
+                    <div class="thumbnail">
+                        <div class="inner">
+                            <div class="top">
+                                <h3>Für Arbeitnehmer</h3>
+                                <p class="top-20">Profitieren Sie von attraktiven und dauerhaften <strong>Rabatten</strong> aus Gastronomie, Wellness, Lifestyle und Vielem mehr in Ihrer <strong>unmittelbaren Nachbarschaft</strong>. </p>
+                                <div class="img-staff">
+                                    <img src="/img/home/teaser-staff.png" />
+                                </div>
+                            </div>
+                            <hr class="dotted"/>
+                            <div class="bottom">
+                                <a href="/app_test.php/de/features" class="btn btn-primary btn-large">Mehr erfahren</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="span4">
+                    <div class="thumbnail">
+                        <div class="inner">
+                            <div class="top">
+                                <h3>Für Kooperationspartner</h3>
+                                <p>Nutzen Sie diesen neuen <strong>Marketing-</strong> und <strong>Vertriebskanal</strong> um Ihre lokale Bekanntheit auch online zu stärken und attraktive <strong>Kunden</strong> dauerhaft zu binden.</p>
+                                <div class="img-partner">
+                                    <img src="/img/home/teaser-partner.png" />
+                                </div>
+                            </div>
+                            <hr class="dotted"/>
+                            <div class="bottom">
+                                <a href="/app_test.php/de/features#partner" class="btn btn-primary btn-large">Mehr erfahren</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div><!-- /container -->
+        <!-- Footer ================================================== -->
+<div class="footercont">
+    <div class="container">
+        <footer class="footer">
+
+            
+                                <strong>Unsere Kooperationspartner:</strong>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <ul class="nav nav-pills">
+                            <li><img src="/img/footer/partner.jpg" alt="Unsere Partner" /></li>
+                        </ul>
+                    </div>
+                    <hr class="add-15"/>
+                </div>
+                
+            <p>happy<strong>staff</strong> ermöglicht es kleinen und mittleren Unternehmen (KMU) ihren Mitarbeitern dauerhaft attraktive Vorteile (Corporate Benefits) anzubieten, die bisher für große Konzerne reserviert waren. Bei diesen Vorteilen handelt es sich insbesondere um lokale Angebote aus Gastronomie, Wellness & Fitness, Lifestyle und Vielem mehr für Genuss und Entspannung im Alltag. Ebenso bietet happy<strong>staff</strong> aber auch klassische Mitarbeitervorteile,
+ beispielsweise aus den Bereichen Reisen, Online Shopping sowie Autovermietung. Mit diesem breit aufgestellten Angebot können wir schnell, einfach und effizient Mitarbeiterzufriedenheit sowie -bindung stärken und somit für nachhaltigen Unternehmenserfolg sorgen. happy<strong>staff</strong> schafft auf diese Weise eine wirkungsvolle Verbindung zwischen KMUs mit zahlungsbereiten Kunden und lokalen Kooperationspartnern mit attraktiven Angeboten.</p>
+            <hr class="add-15"/>
+            
+            <div class="row-fluid">
+                <div class="span8">
+                    <ul class="nav nav-pills pull-left" id="footer-menu">
+                        <li class="regular">© 2012 happy<strong>staff</strong></li>
+                        <li class=""><a href="/app_test.php/de/about">Über uns</a></li>
+                        <li><a href="/app_test.php/de/faq">FAQ</a></li>
+                        <li><a href="/app_test.php/de/jobs">Jobs</a></li>
+                        <li><a href="/app_test.php/de/press">Presse</a></li>
+                        <li><a href="/app_test.php/de/imprint">Impressum</a></li>
+                        <li><a href="/app_test.php/de/contact">Kontakt</a></li>
+                        <li><a href="/app_test.php/de/terms">AGB & Datenschutz</a></li>
+                    </ul>
+                </div>
+                <div class="span2">
+                    <small>Sicher bezahlen:</small><br>
+                                        <img src="/img/footer/norton-seal-100.gif" alt="Norton" />
+                                    </div>
+                <div class="span2">
+                    <small>Unsere Zahlmethoden:</small><br>
+                    <ul class="nav nav-pills">
+                        <li class="top-10"><img src="/img/footer/payment-ec.jpg" alt="Lastschrift" /></li>
+                        <li class="top-10"><img src="/img/footer/payment-mastercard.jpg" alt="Mastercard" /></li>
+                        <li class="top-10"><img src="/img/footer/payment-visa.jpg" alt="Visa" /></li>
+                        <li class="top-10"><img src="/img/footer/payment-paypal.jpg" alt="Paypal" /></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>    </div><!--/city -->
+</div><!--/wood -->
+        </div><!--/wood -->
+    </div><!--/clouds -->
+</div><!--/pattern -->
+
+    <!-- Signup Employer
+     ================================================== -->
+
+<div class="modal hide" id="signup-employ">
+    <div class="modal-hanging"></div>
+    <div class="modal-inner">
+        <div class="modal-header">
+            <button class="close" data-dismiss="modal">×</button>
+            <h3>Als Arbeitsgeber registrieren</h3>
+        </div>
+        <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post" class="form-inline">
+            <div class="modal-body">
+                <h4 class="bottom-10">Unternehmen</h4>
+                <input type="hidden" name="oid" value="00DD0000000qJa3">
+                <input type="hidden" name="retURL" value="http://happystaff/app_test.php/de/thankyou/Employer">
+                <input type="hidden" name="lead_source" value="Selbstregistrierung - Arbeitgeber">
+                <input type="hidden" name="recordType" value="012D0000000BLsU">
+                <input required id="company" maxlength="40" name="company" size="20" type="text" class="span100" placeholder="Name">
+                <input required id="zip" maxlength="6" name="zip" size="20" type="text" class="span1-3 pull-left" placeholder="PLZ">
+                <input required id="city" maxlength="40" name="city" size="20" type="text" class="span2-3 pull-left" placeholder="Ort">
+                <h4 class="add-10">Ansprechpartner</h4>
+                <input required id="first_name" maxlength="40" name="first_name" size="20" type="text" class="span5-1" placeholder="Vorname">
+                <input required id="last_name" maxlength="40" name="last_name" size="20" type="text" class="span5-2" placeholder="Nachname">
+                <input id="00ND00000050Ali" maxlength="80" name="00ND00000050Ali" size="20" type="text" class="span5-1" placeholder="Position">
+                <input required id="phone" maxlength="40" name="phone" size="20" type="tel" class="span5-2" placeholder="Telefon">
+                <input required id="email" maxlength="80" name="email" size="20" type="email" class="span100" placeholder="E-Mail">
+            </div>
+            <div class="modal-footer">
+                <!--<button class="btn" data-dismiss="modal">Close</button>-->
+                <button type="submit" class="btn btn-primary">Jetzt registrieren</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Recommend
+     ================================================== -->
+
+<div class="modal hide" id="recommend">
+    <div class="modal-hanging"></div>
+    <div class="modal-inner">
+        <div class="modal-header">
+            <button class="close" data-dismiss="modal">×</button>
+            <h3>Jetzt Arbeitgeber werben und 100€ Startguthaben sichern!</h3>
+        </div>
+        <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post" class="form-inline">
+            <div class="modal-body">
+                <h4 class="bottom-10">Unternehmen</h4>
+                <input type="hidden" name="oid" value="00DD0000000qJa3">
+                <input type="hidden" name="retURL" value="http://happystaff/app_test.php/de/thankyou/Employee">
+                <input type="hidden" name="lead_source" value="Webempfehlung - Arbeitgeber">
+                <input type="hidden" name="recordType" value="012D0000000BLsU">
+                <input required id="company2" maxlength="40" name="company" size="20" type="text" class="span100" placeholder="Name">
+                <input required id="zip2" maxlength="6" name="zip" size="20" type="text" class="span1-3 pull-left" placeholder="PLZ">
+                <input required id="city2" maxlength="40" name="city" size="20" type="text" class="span2-3 pull-left" placeholder="Ort">
+                <h4 class="add-10">Ansprechpartner <span>(optional)</span></h4>
+                <input id="first_name2" maxlength="40" name="first_name" size="20" type="text" class="span5-1" placeholder="Vorname">
+                <input id="last_name2" maxlength="40" name="last_name" size="20" type="text" class="span5-2" placeholder="Nachname">
+                <input id="00ND00000050Ali2" maxlength="80" name="00ND00000050Ali" size="20" type="text" class="span5-1" placeholder="Position">
+                <input id="phone2" maxlength="40" name="phone" size="20" type="tel" class="span5-2" placeholder="Telefon">
+                <input id="email2" maxlength="80" name="email" size="20" type="email" class="span100" placeholder="E-Mail">
+                <h4 class="add-10">Ihr(e) Name / E-Mail <span>(optional)</span></h4>
+                <input id="00ND00000050Alx2" maxlength="80" name="00ND00000050Alx" size="20" type="text" class="span5-1" placeholder="Name">
+                <input id="00ND00000050Am22" maxlength="80" name="00ND00000050Am2" size="20" type="text" class="span5-2" placeholder="E-Mail">
+            </div>
+            <div class="modal-footer">
+                <!--<button class="btn" data-dismiss="modal">Close</button>-->
+                <button type="submit" class="btn btn-primary">Jetzt empfehlen</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Signup Partner
+     ================================================== -->
+
+<div class="modal hide" id="signup-partner">
+    <div class="modal-hanging"></div>
+    <div class="modal-inner">
+        <div class="modal-header">
+            <button class="close" data-dismiss="modal">×</button>
+            <h3>Kostenlos als Partner registrieren</h3>
+        </div>
+        <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post" class="form-inline">
+            <div class="modal-body">
+                <h4 class="bottom-10">Unternehmen</h4>
+                <input type="hidden" name="oid" value="00DD0000000qJa3">
+                <input type="hidden" name="retURL" value="http://happystaff/app_test.php/de/thankyou/Vendor">
+                <input type="hidden" name="lead_source" value="Selbstregistrierung - Partner">
+                <input type="hidden" name="recordType" value="012D0000000BLsP">
+                <input required id="company3" maxlength="40" name="company" size="20" type="text" class="span100" placeholder="Name">
+                <input required id="zip3" maxlength="6" name="zip" size="20" type="text" class="span1-3 pull-left" placeholder="PLZ">
+                <input required id="city3" maxlength="40" name="city" size="20" type="text" class="span2-3 pull-left" placeholder="Ort">
+                <h4 class="add-10">Ansprechpartner</h4>
+                <input required id="first_name3" maxlength="40" name="first_name" size="20" type="text" class="span5-1" placeholder="Vorname">
+                <input required id="last_name3" maxlength="40" name="last_name" size="20" type="text" class="span5-2" placeholder="Nachname">
+                <input id="00ND00000050Ali3" maxlength="80" name="00ND00000050Ali" size="20" type="text" class="span5-1" placeholder="Position">
+                <input required id="phone3" maxlength="40" name="phone" size="20" type="tel" class="span5-2" placeholder="Telefon">
+                <input required id="email3" maxlength="80" name="email" size="20" type="email" class="span100" placeholder="E-Mail">
+            </div>
+            <div class="modal-footer">
+                <!--<button class="btn" data-dismiss="modal">Close</button>-->
+                <button type="submit" class="btn btn-primary">Jetzt registrieren</button>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- Javascripts
+================================================== -->
+<script src="/app_test.php/js/main_jquery_1.js"></script>
+<script src="/app_test.php/js/main_jquery-ui-1.7.3.custom.min_2.js"></script>
+<script src="/app_test.php/js/main_prettify_3.js"></script>
+<script src="/app_test.php/js/main_bootstrap.min_4.js"></script>
+<script src="/app_test.php/js/main_application_5.js"></script>
+<script src="/app_test.php/js/main_googlemaps_6.js"></script>
+<script src="/app_test.php/js/main_employer_7.js"></script>
+<script type="text/javascript">
+    var reqFieldsHint = 'Pflichtfelder';
+</script>
+
+<div id="sfwdt503e3e7f14ea8" style="display: none"></div><script type="text/javascript">/*<![CDATA[*/    (function () {        var wdt, xhr;        wdt = document.getElementById('sfwdt503e3e7f14ea8');        if (window.XMLHttpRequest) {            xhr = new XMLHttpRequest();        } else {            xhr = new_ActiveXObject('Microsoft.XMLHTTP');        }        xhr.open('GET', '/app_test.php/_wdt/503e3e7f14ea8', true);        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');        xhr.onreadystatechange = function(state) {            if (4 === xhr.readyState && 200 === xhr.status && -1 !== xhr.responseText.indexOf('sf-toolbarreset')) {                wdt.innerHTML = xhr.responseText;                wdt.style.display = 'block';            }        };        xhr.send('');    })();/*]]>*/</script>
+</body>
+</html>

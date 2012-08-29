@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="de">
+<head><!--SAHI_INJECT_START-->
+<script>/*<![CDATA[*//*---->*/__sahiDebugStr__="";__sahiDebug__=function(s){__sahiDebugStr__+=(s+"\n");};/*--*//*]]>*/</script>
+<script src="/_s_/spr/domainfix.js"></script>
+<script src='/_s_/spr/concat.js' id='_sahi_concat'></script>
+<script src='http://sahi.example.com/_s_/dyn/SessionState/state.js'></script>
+<script src='/_s_/spr/language_pack.js' id='langpack'></script>
+<script>/*<![CDATA[*//*---->*/_sahi.createCookie('sahisid', _sahi.sid);_sahi.loadXPathScript()/*--*//*]]>*/</script>
+<script>/*<![CDATA[*//*---->*/eval(_sahi.sendToServer("/_s_/dyn/Player_script/script.js"));/*--*//*]]>*/</script>
+<script src='/_s_/spr/playback.js'></script>
+<!--SAHI_INJECT_END-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Home | happystaff | for better companies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="author" content="happystaff">
+    <meta name="copyright" content="(c) 2012 happystaff">
+    <meta name="description" content="happystaff ermöglicht es kleinen und mittleren Unternehmen Ihren Mitarbeitern dauerhaft attraktive und exklusive Vorteile anzubieten.">
+        <!-- Styles -->
+        <link rel="stylesheet" href="/app_test.php/css/hs_bootstrap_1.css" />
+        <link rel="stylesheet" href="/app_test.php/css/hs_bootstrap-responsive_2.css" />
+        <link rel="stylesheet" href="/app_test.php/css/hs_happystaff_3.css" />
+        <link rel="stylesheet" href="/app_test.php/css/hs_prettify_4.css" />
+            <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+</head>
+
+<body id="employee_dashboard" class="logged-in"id="employee_dashboard" class="logged-in" data-spy="scroll" data-target=".subnav" data-offset="50">
+
+
+<div id="body-pattern">
+    <div id="body-glow">
+        <div id="body-clouds">        <!-- Navbar
+================================================== -->
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <div class="nav-collapse collapse">
+                <ul class="nav metahead">
+                                    <li><a href="/app_test.php/de/logout">Abmeldung</a></li>
+                    <li><a href="/app_test.php/de/faq">Hilfe</a></li>
+                    <li><a href="/app_test.php/de/user/settings">Meine Daten</a></li>
+                    <li><a href="/app_test.php/de/user/dashboard">Home</a></li>
+                </ul>
+                <div class="pull-left welcome-user">
+                    <span class="right-10">
+                        Hallo,
+                        <a href="/app_test.php/de/user/dashboard" > marx beck</a>!
+                    </span>
+                                            <span class="right-10">|</span>
+                        <span>
+                            Mein Bonus-Guthaben:
+                            <strong>160,00 &euro;</strong>
+                        </span>
+                                    </div>
+                            </div>
+        </div>
+    </div>
+</div>        <div class="container">
+            <!-- Masthead
+            ================================================== -->
+            <header class="jumbotron masthead">
+                <div class="inner">
+                    
+<div class="clearfix">
+    <div id="logo"><a href="/app_test.php/de/user/dashboard">happystaff</a></div>
+    <div class="headbtn">
+        
+            
+                                    <form class="pull-right form-search" id="search-top" action="/app_test.php/de/perks/list" method="get">
+                        <input type="hidden" name="search" value="1" />
+                        <input type="text" name="searchString" class="input-xlarge search-query" placeholder="Angebote finden..." >
+                        <div class="searching" onclick="document.getElementById('search-top').submit();"></div>
+                    </form>
+                                    
+
+    </div>
+</div>
+                                    </div>
+            </header>
+        </div><!-- /container -->
+            <div id="body-wood">
+        <div id="body-city">
+            <div class="container">
+                <!-- Tabbed Content
+                ================================================== -->
+                                                <ul class="nav nav-tabs flex-tabs top-40" id="">
+                    <li id="employee_dashboard" class="active"><a href="/app_test.php/de/employee/dashboard">Home</a></li>
+                    <li id="perk_list" ><a id="tabnav-employee-perklist" href="/app_test.php/de/perks/list">Alle Angebote</a></li>
+                    <li id="order_list" ><a href="/app_test.php/de/order/list">Meine Bestellungen</a></li>
+                </ul>
+                                                <div class="tab-content">
+                    
+<!-- Content Dashboard
+	================================================== -->
+<div class="tab-pane fade  active in " id="dashboard">
+    <div class="row-fluid">
+        <div class="span8">
+            <div class="span12">
+                <div class="span10 pull-left">
+                    <h3>Hallo marx beck,</h3>
+                    <p class="font16">willkommen auf happy<strong>staff</strong>!</p>
+                    <!--<a href="/app_test.php/de/employee/settings">Meine Benutzerdaten</a>-->
+                </div>
+                <div class="clearfix"></div>
+                <hr class="dotted"/>
+
+                <h3>Jetzt beliebteste Kategorien entdecken:</h3>
+                <div class="row-fluid">
+                    <div class="pull-left cat">
+                        <div class="cat-hover"><a href="/app_test.php/de/perks/list/catId/1"><img src="/img/dashboard/cat-hover.png" alt="" /></a></div>
+                        <a href="/app_test.php/de/perks/list/catId/1"><img src="/img/dashboard/cat-01.jpg" alt="Gastronomie"/></a><br/>
+                        <a href="/app_test.php/de/perks/list/catId/1">Gastronomie</a>
+                    </div>
+                    <div class="pull-left cat">
+                        <div class="cat-hover"><a href="/app_test.php/de/perks/list/catId/2"><img src="/img/dashboard/cat-hover.png" alt="" /></a></div>
+                        <a href="/app_test.php/de/perks/list/catId/2"><img src="/img/dashboard/cat-02.jpg" alt="Wellness &amp; Fitness"/></a><br/>
+                        <a href="/app_test.php/de/perks/list/catId/2">Wellness &amp; Fitness</a>
+                    </div>
+                    <div class="pull-left cat">
+                        <div class="cat-hover"><a href="/app_test.php/de/perks/list/catId/3"><img src="/img/dashboard/cat-hover.png" alt="" /></a></div>
+                        <a href="/app_test.php/de/perks/list/catId/3"><img src="/img/dashboard/cat-03.jpg" alt="Lifestyle &amp; Events"/></a><br/>
+                        <a href="/app_test.php/de/perks/list/catId/3">Lifestyle &amp; Events</a>
+                    </div>
+                    <div class="pull-left cat last">
+                        <div class="cat-hover"><a href="/app_test.php/de/perks/list/catId/4"><img src="/img/dashboard/cat-hover.png" alt="" /></a></div>
+                        <a href="/app_test.php/de/perks/list/catId/4"><img src="/img/dashboard/cat-04.jpg" alt="Online Shopping"/></a><br/>
+                        <a href="/app_test.php/de/perks/list/catId/4">Online Shopping</a>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+                <!-- Listings -->
+
+                <hr class="dotted"/>
+                <h3>Ausgewählte Angebote auf einen Blick:</h3>
+
+                <ul class="nav nav-tabs inner-tabs top-40">
+                    <li class="active">
+                        <a href="#list-popular">Die Beliebtesten</a>
+                    </li>
+                    <li><a href="#list-new">Neue Angebote</a></li>
+                    <li class="last"><a id="last-orders-link" href="#list-ordered">Letzte Bestellungen</a></li>
+                </ul>
+
+                <div class="tab-content inner-tab">
+                    <div class="tab-pane active" id="list-popular">
+                        <table class="table table-striped">
+                            <tbody>
+                                                                    <tr>
+                                        <td class="img">
+                                            <a href="/app_test.php/de/perk/1">
+                                                                                        <img src="/img/logos/nologo.png" />
+                                                                                        </a>
+                                        </td>
+                                        <td>
+                                            <strong><a href="/app_test.php/de/perk/1">Cinemaxx Berlin</a></strong>
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr <a href="/app_test.php/de/perk/1">Details</a>
+                                                <br />
+                                                <small>
+                                                                                                    </small>
+                                            </p>
+                                        </td>
+                                        <td class="percent"><a href="#" class="perk-distance-tooltip" rel="tooltip" title="Ersparnis">&lt;&nbsp;33%</a></td>
+                                        <td class="distance">
+                                            <strong>
+                                                                                                <a href="#" class="perk-distance-tooltip" rel="tooltip" title="perk.tooltip.online" >Online</a>
+                                                                                            </strong>
+                                        </td>
+                                    </tr>
+                                                                </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane" id="list-new">
+                        <table class="table table-striped">
+                            <tbody>
+                                                                    <tr>
+                                        <td class="img">
+                                            <a href="/app_test.php/de/perk/1">
+                                                                                        <img src="/img/logos/nologo.png" />
+                                                                                        </a>
+                                        </td>
+                                        <td>
+                                            <strong><a href="/app_test.php/de/perk/1">Cinemaxx Berlin</a></strong>
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr <a href="/app_test.php/de/perk/1">Details</a>
+                                                <br />
+                                                <small>
+                                                                                                    </small>
+                                            </p>
+                                        </td>
+                                        <td class="percent"><a href="#" class="perk-distance-tooltip" rel="tooltip" title="Ersparnis">&lt;&nbsp;33%</a></td>
+                                        <td class="distance">
+                                            <strong>
+                                                                                                <a href="#" class="perk-distance-tooltip" rel="tooltip" title="perk.tooltip.online" >Online</a>
+                                                                                            </strong>
+                                        </td>
+                                    </tr>
+                                                                </tbody>
+                        </table>
+
+                    </div>
+                    <div class="tab-pane" id="list-ordered">
+                        <table class="table table-striped">
+                            <tbody>
+                                                                    <tr>
+                                        <td class="img">
+                                            <a href="/app_test.php/de/perk/3">
+                                                                                        <img src="/img/logos/nologo.png" />
+                                                                                        </a>
+                                        </td>
+                                        <td>
+                                            <strong><a href="/app_test.php/de/perk/3">Rabatt auf Handys im Weltall</a></strong>
+                                            <p>Lorem ipsum dolor sit amet <a href="/app_test.php/de/perk/3">Details</a>
+                                                <br />
+                                                <small>
+                                                                                                        Tags:                                                    <a href="/app_test.php/de/perks/list?&tagId=1">Food &amp; Liquor</a>,                                                                                                                                                             <a href="/app_test.php/de/perks/list?&tagId=2">Cool</a>                                                                                                    </small>
+                                            </p>
+                                        </td>
+                                        <td class="percent"><a href="#" class="perk-distance-tooltip" rel="tooltip" title="Ersparnis">&lt;&nbsp;66%</a></td>
+                                        <td class="distance">
+                                            <strong>
+                                                                                                <a href="#" class="perk-distance-tooltip" rel="tooltip" title="Entfernung" >261,39&nbsp;km</a>
+                                                                                            </strong>
+                                        </td>
+                                    </tr>
+                                                                </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div id="dashboard-main-foot">
+                    <a id="dashboard-perk-list" class="more" href="/app_test.php/de/perks/list">Alle Angebote</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="span4">
+            <span class=""><strong>Büro: </strong></span>
+            <div id="map_canvas" style="height:190px; width:280px;" class="top-10"></div>
+
+            <div class="marker-box bottom-40">
+                <span class=""><strong>Mein Bonus-Guthaben: </strong></span>
+                <span class="pull-right" rel="tooltip" title="Dieses Guthaben wurde von Ihrem Arbeitgeber für Sie aufgeladen.">160,00 &euro;</span>
+            </div>
+
+            
+            <!-- Form Recommend -->
+            <div id="partnerRecommend" class="feature-teaser">
+                <div class="thumbnail">
+                        <div class="inner">
+                            <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post" class="form-inline no-margin">
+                                <div class="top">
+                                    <div class="padding-10">
+                                        <h3 class="remove-bottom">Ihr Wunschangebot ist noch nicht auf happy<strong>staff</strong>?</h3>
+                                    </div>
+                                    <div class="show-more text-highlighted">
+                                        <span class="arrow-up pull-left">&#x25B2;</span><span class="arrow-down pull-left">&#x25BC;</span>
+                                        <span class="label-more pull-left" >mehr</span><span class="label-complete pull-left" >zurück</span><br/>
+                                    </div>
+                                    <div class="show-complete">
+                                        <div class="padding-10">
+                                            <p>Machen Sie uns einen Vorschlag!</p>
+
+                                            <input type="hidden" name="oid" value="00DD0000000qJa3">
+                                            <input type="hidden" name="retURL" value="http://happystaff/app_test.php/de/thankyou/EmployeeReferral">
+                                            <input type="hidden" name="lead_source" value="Webempfehlung - Partner">
+                                            <input type="hidden" name="recordType" value="012D0000000BLsP"> <!-- Partner RecordType -->
+                                            <input type="hidden" id="00ND00000050Alx2" name="00ND00000050Alx" value="marx beck">
+                                            <input type="hidden" id="00ND00000050Am22" name="00ND00000050Am2" value="test@employee.de">
+
+                                            <input type="text" name="company" value="" placeholder="Vorteilspartner oder Branche" class="span12"/>
+                                            <input type="text" name="city" value="" placeholder="Ort oder URL"  class="span12"/>
+                                            <textarea name="description" placeholder="Bemerkungen, Hinweise" rows="5"  class="span12"></textarea>
+                                        </div>
+                                        <hr class="dotted" />
+                                        <div class="bottom">
+                                            <input type="submit" name="" value="Vorschlag senden" class="btn btn-primary minwidth-150" />
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <!--<a href="#" id="recommend-slider-btn" onclick="return false;">mehr</a>-->
+                                </div>
+                            </form>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+                </div>
+            </div><!-- /container -->
+            <div class="shadow"></div>
+            <!-- Footer ================================================== -->
+<div class="footercont">
+    <div class="container">
+        <footer class="footer">
+
+            
+            <div class="row-fluid">
+                <div class="span8">
+                    <ul class="nav nav-pills pull-left" id="footer-menu">
+                        <li class="regular">© 2012 happy<strong>staff</strong></li>
+                        <li class=""><a href="/app_test.php/de/about">Über uns</a></li>
+                        <li><a href="/app_test.php/de/faq">FAQ</a></li>
+                        <li><a href="/app_test.php/de/jobs">Jobs</a></li>
+                        <li><a href="/app_test.php/de/press">Presse</a></li>
+                        <li><a href="/app_test.php/de/imprint">Impressum</a></li>
+                        <li><a href="/app_test.php/de/contact">Kontakt</a></li>
+                        <li><a href="/app_test.php/de/terms">AGB & Datenschutz</a></li>
+                    </ul>
+                </div>
+                <div class="span2">
+                    <small>Sicher bezahlen:</small><br>
+                                        <img src="/img/footer/norton-seal-100.gif" alt="Norton" />
+                                    </div>
+                <div class="span2">
+                    <small>Unsere Zahlmethoden:</small><br>
+                    <ul class="nav nav-pills">
+                        <li class="top-10"><img src="/img/footer/payment-ec.jpg" alt="Lastschrift" /></li>
+                        <li class="top-10"><img src="/img/footer/payment-mastercard.jpg" alt="Mastercard" /></li>
+                        <li class="top-10"><img src="/img/footer/payment-visa.jpg" alt="Visa" /></li>
+                        <li class="top-10"><img src="/img/footer/payment-paypal.jpg" alt="Paypal" /></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>        </div><!--/city -->
+    </div><!--/wood -->
+        </div><!--/wood -->
+    </div><!--/clouds -->
+</div><!--/pattern -->
+
+            <div id="fdbkTab" class="fdbk" data-toggle="modal" href="#fdbkContainer">
+    Meinung sagen!
+</div>
+
+<div class="modal hide" id="fdbkContainer">
+    <div class="modal-hanging"></div>
+    <div class="modal-inner">
+        <div class="modal-header">
+            <button class="close" data-dismiss="modal">×</button>
+            <h3>Helfen Sie uns happy<strong>staff</strong> zu verbessern!</h3>
+        </div>
+        <form class="form-inline" action="https://www.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="post">
+            <div class="modal-body">
+                <input type="hidden" name="orgid" value="00DD0000000qJa3">
+                <input type="hidden" name="retURL" value="http://happystaff/app_test.php/de/thankyou/Feedback">
+                <input type="hidden" name="type" value="Feedback">
+                <input type="hidden" name="priority" value="Niedrig">
+                <input type="hidden" name="subject" value="Kunden-Feedback">
+                <input type="hidden" name="company" value="">
+                <input type="hidden" name="name" value="marx beck">
+                <input type="hidden" name="email" value="test@employee.de">
+                <input type="hidden" name="phone" value="">
+                <textarea required id="description" name="description" placeholder="Teilen Sie uns ihr Feedback mit." rows="5" class="span100"></textarea>
+            </div>
+            <div class="modal-footer">
+                <!--<button class="btn" data-dismiss="modal">Close</button>-->
+                <button type="submit" class="btn btn-primary">Senden</button>
+            </div>
+        </form>
+    </div>
+</div>
+    
+<!-- Javascripts
+================================================== -->
+<script src="/app_test.php/js/main_jquery_1.js"></script>
+<script src="/app_test.php/js/main_jquery-ui-1.7.3.custom.min_2.js"></script>
+<script src="/app_test.php/js/main_prettify_3.js"></script>
+<script src="/app_test.php/js/main_bootstrap.min_4.js"></script>
+<script src="/app_test.php/js/main_application_5.js"></script>
+<script src="/app_test.php/js/main_googlemaps_6.js"></script>
+<script src="/app_test.php/js/main_employer_7.js"></script>
+<script type="text/javascript">
+    var reqFieldsHint = 'Pflichtfelder';
+</script>
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+
+        
+    $(function() {
+        googleMaps('/assets/img/', 14,null,null, 53.546690, 9.938920 );
+    });
+
+</script>
+
+<div id="sfwdt503e3e8961402" style="display: none"></div><script type="text/javascript">/*<![CDATA[*/    (function () {        var wdt, xhr;        wdt = document.getElementById('sfwdt503e3e8961402');        if (window.XMLHttpRequest) {            xhr = new XMLHttpRequest();        } else {            xhr = new_ActiveXObject('Microsoft.XMLHTTP');        }        xhr.open('GET', '/app_test.php/_wdt/503e3e8961402', true);        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');        xhr.onreadystatechange = function(state) {            if (4 === xhr.readyState && 200 === xhr.status && -1 !== xhr.responseText.indexOf('sf-toolbarreset')) {                wdt.innerHTML = xhr.responseText;                wdt.style.display = 'block';            }        };        xhr.send('');    })();/*]]>*/</script>
+</body>
+</html>
