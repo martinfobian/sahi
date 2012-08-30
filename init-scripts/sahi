@@ -1,0 +1,33 @@
+SAHI=`readlink -f "/usr/bin/sahi"`
+PIDFILE=/var/run/sahi.pid
+
+export SAHI_HOME=`dirname "$SAHI"`/..
+export SAHI_USERDATA_DIR=$SAHI_HOME/userdata
+
+sudo /etc/init.d/xvfb status
+if [ "$?x" = "0x" ]; then
+	export DISPLAY=:99
+fi
+
+case "$1" in
+  start)
+    echo -n "Starting Sahi"
+    start-stop-daemon --start --quiet --pidfile $PIDFILE --make-pidfile --background --exec /bin/sh $SAHI
+    echo "."
+    ;;
+  stop)
+    echo -n "Stopping Sahi"
+    start-stop-daemon --stop --quiet --pidfile $PIDFILE
+    ps ax | grep sahi.jar | grep -v grep | awk '{ print $1}' | xargs kill
+    echo "."
+    ;;
+  restart)
+    $0 stop
+    $0 start
+    ;;
+  *)
+        echo "Usage: /etc/init.d/sahi {start|stop|restart}"
+        exit 1
+esac
+
+exit 0
